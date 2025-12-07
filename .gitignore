@@ -8,6 +8,7 @@ frontend/node_modules/
 .venv/
 venv/
 __pycache__/
+
 dist/
 build/
 *.log
