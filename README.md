@@ -1,9 +1,8 @@
-HEAD
 This is a Notes Web Application built using the MERN Stack — MongoDB, Express.js, React, and Node.js. It allows users to add, update, and delete notes easily in a clean and responsive user interface.
 
 🚀 Features
 ✅ Add a new note
-=======
+
 # Notes.app
 This is a Notes Web Application built using the MERN Stack — MongoDB, Express.js, React, and Node.js. It allows users to add, update, and delete notes easily in a clean and responsive user interface.
 
@@ -61,4 +60,4 @@ Run npm install in both the /backend and /frontend directories
 Set up your .env file in the backend (include your MongoDB URI)
 Start the backend server from root folder : npm start
 Start the frontend server: npm run dev or npm start
-fd1ba0f40255646a9ecb55ba8194033593411ade
+
