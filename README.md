@@ -6,14 +6,11 @@ This is a Notes Web Application built using the MERN Stack — MongoDB, Express.
 # Notes.app
 This is a Notes Web Application built using the MERN Stack — MongoDB, Express.js, React, and Node.js. It allows users to add, update, and delete notes easily in a clean and responsive user interface.
 
-🚀 Features ✅ Add a new note
-fd1ba0f40255646a9ecb55ba8194033593411ade
-
+🚀 Features 
+✅ Add a new note
 ♻️ Update an existing note
-
 ❌ Delete a note
 
-HEAD
 🛠️ Technologies Used
 MERN Stack:
 1) MongoDB
