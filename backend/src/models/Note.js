@@ -1,22 +1,28 @@
 import mongoose from "mongoose";
 
 // 1- create a schema
-//  2- model based off of that schema
+// 2- model based off of that schema
 
-const noteSchema = new mongoose.Schema({
+const noteSchema = new mongoose.Schema(
+  {
     title: {
-        type: String,
-        required: true
+      type: String,
+      required: true,
     },
     content: {
-        type:String,
-        required:true
-    }
-},
+      type: String,
+      required: true,
+    },
 
-{timestamps: true} //mongoDB by default createdAt, updatedAt
+    // 👉 New field for Sentiment Analysis
+    sentiment: {
+      type: String,   // Example values: "Positive", "Neutral", "Negative"
+      required: false // optional
+    },
+  },
+  { timestamps: true } // mongoDB default createdAt, updatedAt
 );
 
-const Note = mongoose.model("Note", noteSchema)
+const Note = mongoose.model("Note", noteSchema);
 
 export default Note;
